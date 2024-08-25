@@ -1,0 +1,20 @@
+{
+  "name": "movie_listing_app",
+  "version": "1.0.0",
+  "description": "To list the movies",
+  "main": "index.js",
+  "scripts": {
+    "dev":"nodemon app.js"
+
+  },
+  "author": "Harsha",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
